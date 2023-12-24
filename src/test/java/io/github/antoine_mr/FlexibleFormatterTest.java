@@ -1,4 +1,4 @@
-package org.example;
+package io.github.antoine_mr;
 import org.junit.jupiter.api.BeforeEach;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

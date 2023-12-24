@@ -1,4 +1,4 @@
-package org.example;
+package io.github.antoine_mr;
 
 import java.util.*;
 import java.util.logging.*;
