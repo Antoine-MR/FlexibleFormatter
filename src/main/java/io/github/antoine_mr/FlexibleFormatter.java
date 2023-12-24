@@ -147,10 +147,19 @@ public class FlexibleFormatter extends Formatter {
         return this;
     }
 
+    /**
+     * Returns the current color of the logger
+     * @return The current color of the logger
+     */
     public String getDatePattern() {
         return datePattern;
     }
 
+    /**
+     * Sets the date pattern of the logger
+     * @param datePattern The date pattern that will be set.
+     * @return This FlexibleFormatter instance, allowing for method chaining.
+     */
     public FlexibleFormatter setDatePattern(String datePattern) {
         this.datePattern = datePattern;
         return this;
